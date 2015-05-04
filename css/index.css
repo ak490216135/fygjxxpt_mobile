@@ -1,0 +1,451 @@
+/*
+ *		手机版css
+ * 		20150401
+ * 		490216135@qq.com
+ * */
+*{
+	border-radius: 0px!important;
+	font-family: "微软雅黑";
+}
+a{
+	color: #ea5e18;	
+}
+a:hover{
+	color: #999;
+	text-decoration: none;
+}
+hr{
+	border-color: #ccc;
+}
+.form-group label{
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #ea5e18;
+}
+.form-group select{
+	background: #ddd;
+	color: #333;
+}
+
+
+/*
+ *		公共css开始 
+ * */
+#head{
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	padding: 0px 0px 0px 0px;
+	top: 0px;
+	background: rgba(247,247,247,.98);
+	left: 0px;
+	right: 0px;
+	z-index: 99;
+	border-bottom: 1px solid #bbb;
+}
+#head h1{
+	
+	font-size: 18px;
+	font-weight: 500;
+	overflow: hidden;
+	margin: 10px 0px 0px 0px;
+	color: #ea5e18;
+	padding: 0px 20px 0px 0px;
+}
+#head img{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	
+	
+}
+
+#foot{
+	border-top: 1px solid #bbb;
+	background: rgba(247,247,247,.98);
+	height: 88px;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	z-index: 99;
+}
+#foot #myTab{
+	height: 88px;
+}
+#foot #myTab li{
+	text-align: center;
+	line-height: 61px;
+	height: 88px;
+	width: 20%;
+}
+#foot #myTab li a{
+	border-top: 0px;
+	height: 88px;
+	line-height: 35px;
+	font-size: 21px;
+}
+#foot #myTab .active a{
+	
+	border-color: #bbb;
+}
+#pages{
+	
+}
+#pages ul{
+	
+}
+#pages .active{
+	
+}
+#pages .active a{
+	background: #999;
+	border: 1px solid #999;
+}
+#pages .active a:hover{
+	background: #999;
+	border: 1px solid #999;
+}
+#pages ul li{
+	
+}
+#pages ul li a{
+	 color: #666;
+}
+#pages ul li a:hover{
+	background: #ccc;
+}
+#xxglTab{
+	border: 0px;
+}
+#xxglTab li{}
+#xxglTab li a{
+	
+}
+#xxglTab li a:hover{
+	border: 1px solid #fff;
+}
+#xxglTab .active{}
+#xxglTab .active a{
+	border: 1px solid #ddd;
+	background: #ddd;
+}
+#xxglTab .active a:hover{
+	border: 1px solid #ddd;
+}
+
+
+/*
+ *		公共css结束
+ * */
+
+/*
+ *		首页结束
+ * */
+#home{}
+#home .col-xs-6{}
+#home .col-xs-6 img{
+	margin: 0px auto 0px;
+}
+
+
+/*
+ *		首页结束
+ * */
+
+/*
+ *		资讯开始
+ * */
+#zx .nav{
+	
+}
+#zx .nav li{
+	
+}
+#zx .nav li a{
+	font-size: 25px;
+	margin: 0px 0px 10px 0px;
+	background: #e3e3e3;
+}
+#zx .nav li a:hover{
+	background: #ea5e18;
+	color: #fff;
+}
+#zx .nav li a:active{
+	background: #ea5e18;
+	color: #fff;
+}
+#zx .nav li a span{
+	float: right;
+}
+#zx .active li a{
+	background: #ea5e18;
+	color: #fff;
+}
+/*
+ *		资讯结束
+ * */
+
+/*
+ *		找货开始
+ * */
+#zh{}
+#zh .form-group{
+}
+#zh .form-group label{
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #ea5e18;
+}
+#zh .form-group select{
+	background: #ddd;
+	color: #333;
+}
+/*
+ *		找货结束
+ * */
+
+/*
+ *		找车开始
+ * */
+#zc{}
+#zc .form-group{
+}
+#zc .form-group label{
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #ea5e18;
+}
+#zc .form-group select{
+	background: #ddd;
+	color: #333;
+}
+/*
+ *		找车结束
+ * */
+
+/*
+ *		找车列表开始
+ * */
+#zc_list{}
+#zc_list #title{
+	padding: 0px;
+}
+#zc_list #list{
+	padding: 0px;
+}
+#zc_list #list a{
+	display: block;
+	width: 100%;
+	background: #e3e3e3;
+	padding: 3px;
+}
+#zc_list #list .row .col-xs-12{
+	margin: 0px 0px 10px 0px;
+}
+#zc_list #list a .clxxxx{
+	color: #444;
+	font-size: 16px;
+	margin: 0px 0px 0px 0px;
+}
+#zc_list #list a .clxx{
+	margin: 0px 0px 0px 0px;
+}
+#zc_list #list a .cxyq{
+	margin: 0px 0px 0px 0px;
+}
+
+#zc_list .form-group{
+}
+#zc_list .form-group label{
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #ea5e18;
+}
+#zc_list #select .form-group select{
+	background: #ddd;
+	color: #333;
+}
+/*
+ *		找车列表结束
+ * */
+
+/*
+ *		找车内容页开始
+ * */
+#zc_content{}
+#zc_content .col-xs-12{
+	padding: 0px;
+}
+#zc_content .col-xs-6{
+	padding: 0px;
+}
+#zc_content div p{
+	font-size: 16px;
+}
+#zc_content div p span{
+	font-weight: 600;
+}
+/*
+ *		找车内容页结束
+ * */
+
+/*
+ *		找货列表开始
+ * */
+#zh_list{}
+#zh_list #title{
+	padding: 0px;
+}
+#zh_list #list{
+	padding: 0px;
+}
+#zh_list #list a{
+	display: block;
+	width: 100%;
+	background: #e3e3e3;
+	padding: 3px;
+}
+#zh_list #list .row .col-xs-12{
+	margin: 0px 0px 10px 0px;
+}
+#zh_list #list a .sfd-mdd{
+	font-size: 18px;
+	color: #333;
+	margin: 0px 0px 10px 0px;
+}
+#zh_list #list a .hwmc{
+	margin: 0px 0px 0px 0px;
+}
+#zh_list #list a .cxyq{
+	margin: 0px 0px 0px 0px;
+}
+#zh_list #list a .ccyq{
+	margin: 0px 0px 0px 0px;
+}
+#zh_list #list a .hwzl{
+	width: 50%;
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+#zh_list #list a .gxsj{
+	width: 50%;
+	float: right;
+	margin: 0px 0px 0px 0px;
+}
+
+
+#zh_list .form-group{
+}
+#zh_list .form-group label{
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #ea5e18;
+}
+#zh_list #select .form-group select{
+	background: #ddd;
+	color: #333;
+}
+/*
+ *		找货列表结束
+ * */
+
+
+/*
+ *		找货内容页开始
+ * */
+#zh_content{}
+#zh_content .col-xs-12{
+	padding: 0px;
+}
+#zh_content .col-xs-6{
+	padding: 0px;
+}
+#zh_content div p{
+	font-size: 16px;
+}
+#zh_content div p span{
+	font-weight: 600;
+}
+/*
+ *		找货内容页结束
+ * */
+
+/*
+ *		注册开始
+ * */
+#register{}
+#register .form-group .radio{
+	font-size: 18px;
+}
+#register .form-group .radio label{
+	
+}
+#register .form-group .radio input{
+}
+#register .form-group select{
+	background: #ddd;
+	color: #333;
+}
+#register{}
+/*
+ *		注册结束
+ * */
+
+/*
+ *		修改个人信息开始
+ * */
+
+#info .form-group select{
+	background: #ddd;
+	color: #333;
+}
+/*
+ *		修改个人信息结束
+ * */
+
+/*
+ *		消息管理开始
+ * */
+#msg{}
+/*
+ *		消息管理结束
+ * */
+
+/*
+ *		收件箱开始
+ * */
+#msg_list{}
+#msg_list .table .checkbox{
+	height: 15px;
+	width: 15px;
+}
+/*
+ *		收件箱结束
+ * */
+
+/*
+ *		收件箱清理开始
+ * */
+#msg_clear{}
+#msg_clear .table .checkbox{
+	height: 15px;
+	width: 15px;
+}
+/*
+ *		收件箱清理结束
+ * */
+
+/*
+ *		收件箱设置开始
+ * */
+#msg_set{}
+
+#msg_set .table .checkbox{
+	height: 15px;
+	width: 15px;
+}
+/*
+ *		收件箱设置结束
+ * */
+
